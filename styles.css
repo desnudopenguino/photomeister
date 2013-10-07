@@ -1,0 +1,191 @@
+body {
+	margin:0;
+	padding:0;
+	font-family:Arial;
+	color:#ffffff;
+	background-color:#111111;
+}
+
+a {
+	text-decoration:underline;
+	color:#ffffff;
+	border:0;
+}
+
+a img {
+	border:0;
+}
+
+div#top {
+	position:absolute;
+	top:5;
+	left:5;
+	width:800px;
+	height:150px;
+}
+
+div#login {
+	position:absolute;
+	top:160px;
+	left:5px;
+	width:200px;
+	margin:5px;
+}
+
+div#navigation {
+	position:absolute;
+	top:160px;
+	left:210px;
+	width:595px;
+	background-color:#666666;
+	padding:5px;
+}
+
+div#navigation form {
+	display: inline;
+}
+
+div#content {
+	position:absolute;
+	top:235px;
+	left:205px;
+	margin:10px;
+	width:600px;
+}
+
+.btn {
+	background-color:#ffffff;
+	border:solid black 1px;
+	font-size:12pt;
+	cursor:pointer;
+	padding:2px;
+}
+
+form ul { 
+	list-style:none;
+	padding:0;
+}
+
+form ul li {
+	margin-bottom:5px;
+}
+
+form ul li lable {
+	float:left;
+	text-align:right;
+	width:120px;
+	margin-right:10px;
+}
+
+div.item form, div.item form input, div.item p {
+	display:inline;
+}
+
+div#breadcrumbs {
+	position:absolute;
+	left:210px;
+	top:205px;
+	height:25px;
+	margin:5px;
+}
+
+span.error {
+	color:red;
+	font-size:12pt;
+}
+
+p.caption {
+	width:600px;
+	padding:0;
+	margin:0;
+	font-size:10pt;
+	text-align:center;
+}
+
+.small {
+	font-size:10pt;
+}
+
+.right {
+	float:right;
+}
+
+.left {
+	float:left;
+}
+
+div#footer {
+	margin-top:30px;
+	width:100%;
+}
+
+div#footer p {
+	float:right;
+	font-size:10pt;
+}
+
+#imageList {
+	list-style:none; 
+	margin:0; 
+	padding:0;
+}
+
+#imageList li {
+	margin:3px;
+	float:left; 
+	width:100px; 
+	height:80px;
+}
+
+#album {
+	height:200px;
+}
+
+#images {
+	overflow:auto;
+}
+
+span.skill {
+	width:200px;
+	text-align:left;
+}
+
+span.skill_time {
+	width:50px;
+}
+
+div#portfolios {
+	float:right;
+	border:solid 2px #666666;
+	padding:5px;
+}
+
+div#portfolios h3 {
+	margin:0;
+	padding:0;
+	text-decoration:underline;
+}
+
+p.error {
+	color:#ff0000;
+	padding:0;
+	margin:0;
+}
+
+p.success {
+	color:#00ff00;
+	padding:0;
+	margin:0;
+}
+
+div#feedback {
+	position:absolute;
+	top:235px;
+	left:210px;
+	height:25px;
+	overflow:auto;
+	margin:0;
+	padding:0;
+	padding-left:5px;
+}
+
